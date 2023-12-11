@@ -23,8 +23,9 @@ The following **extensions** are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
-![Project3](https://github.com/m1chele11/michele-323/assets/143828201/11b98ba4-fcd4-4cc7-8ffb-89ffa9931341)
+Here's a walkthrough of implemente![Untitled design (1)](https://github.com/m1chele11/mathGame/assets/143828201/7bff3a5d-19d8-4e1a-9c55-6a3ff27d5f21)
+d user stories:
+
 
 
 
