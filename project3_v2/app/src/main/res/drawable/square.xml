@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="0dp"/>
+        </shape>
+        <ripple android:layout_width="wrap_content" android:layout_height="wrap_content" android:color="@color/white"></ripple>
+        <color android:layout_width="match_parent" android:layout_height="match_parent" android:color="@color/white">
+        </color>
+    </item>
+</selector>
