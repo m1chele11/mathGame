@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment1">
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="edu.iu.mbarrant.project3_v2.Fragment1"
+        android:label="fragment_1"
+        tools:layout="@layout/fragment_1" >
+        <action
+            android:id="@+id/action_fragment1_to_fragment2"
+            app:destination="@id/fragment2" >
+            <argument
+                android:name="oper"
+                app:argType="string"/>
+            <argument
+                android:name="noq"
+                app:argType="integer"/>
+            <argument
+                android:name="level"
+                app:argType="string"/>
+        </action>
+        <argument
+            android:name="grade"
+            app:argType="integer"
+            android:defaultValue="-1"/>
+        <argument
+            android:name="noq"
+            app:argType="integer"
+            android:defaultValue="-1"/>
+        <argument
+            android:name="oper"
+            app:argType="string"
+            android:defaultValue="n"/>
+    </fragment>
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="edu.iu.mbarrant.project3_v2.Fragment2"
+        android:label="fragment_2"
+        tools:layout="@layout/fragment_2" >
+        <action
+            android:id="@+id/action_fragment2_to_fragment1"
+            app:destination="@id/fragment1">
+            <argument
+                android:name="grade"
+                app:argType="integer"/>
+            <argument
+                android:name="noq"
+                app:argType="integer"/>
+            <argument
+                android:name="oper"
+                app:argType="string"/>
+        </action>
+        <argument
+            android:name="oper"
+            app:argType="string"/>
+        <argument
+            android:name="noq"
+            app:argType="integer"/>
+        <argument
+            android:name="level"
+            app:argType="string"/>
+    </fragment>
+</navigation>
